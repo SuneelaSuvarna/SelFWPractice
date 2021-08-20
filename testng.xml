@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-	<test thread-count="5" name="Test">
+<suite name="Suite" parallel="tests">
+	<test name="TestChrome">
+		<parameter name="hubUrl"
+			value="http://localhost:4444/wd/hub" />
+		<parameter name="browser" value="chrome" />
 		<packages>
 			<package name="script" />
 		</packages>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+	</test>
+
+	<test name="TestFireFox">
+		<parameter name="hubUrl"
+			value="http://localhost:4444/wd/hub" />
+		<parameter name="browser" value="firefox" />
+		<packages>
+			<package name="script" />
+		</packages>
+	</test>
+</suite> 

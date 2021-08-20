@@ -1,39 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="28962" started-at="2021-08-19T12:48:43Z" finished-at="2021-08-19T12:49:12Z">
+  <suite name="Suite" duration-ms="33009" started-at="2021-08-20T14:21:00Z" finished-at="2021-08-20T14:21:33Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="28962" started-at="2021-08-19T12:48:43Z" finished-at="2021-08-19T12:49:12Z">
+    <test name="TestChrome" duration-ms="30021" started-at="2021-08-20T14:21:00Z" finished-at="2021-08-20T14:21:30Z">
       <class name="script.InValidLogin">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.InValidLogin@11a9e7c8]" name="openApp" is-config="true" duration-ms="10628" started-at="2021-08-19T12:48:59Z" finished-at="2021-08-19T12:49:10Z">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.InValidLogin@4c1d9d4b]" name="openApp" is-config="true" duration-ms="10085" started-at="2021-08-20T14:21:18Z" finished-at="2021-08-20T14:21:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="testInValidLogin()[pri:2, instance:script.InValidLogin@11a9e7c8]" name="testInValidLogin" duration-ms="1992" started-at="2021-08-19T12:49:10Z" finished-at="2021-08-19T12:49:12Z">
+        <test-method status="PASS" signature="testInValidLogin()[pri:2, instance:script.InValidLogin@4c1d9d4b]" name="testInValidLogin" duration-ms="1860" started-at="2021-08-20T14:21:28Z" finished-at="2021-08-20T14:21:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInValidLogin -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.InValidLogin@11a9e7c8]" name="closeApp" is-config="true" duration-ms="85" started-at="2021-08-19T12:49:12Z" finished-at="2021-08-19T12:49:12Z">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.InValidLogin@4c1d9d4b]" name="closeApp" is-config="true" duration-ms="67" started-at="2021-08-20T14:21:30Z" finished-at="2021-08-20T14:21:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- script.InValidLogin -->
       <class name="script.ValidLogin">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.ValidLogin@3b07a0d6]" name="openApp" is-config="true" duration-ms="9461" started-at="2021-08-19T12:48:43Z" finished-at="2021-08-19T12:48:52Z">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.ValidLogin@12d4bf7e]" name="openApp" is-config="true" duration-ms="11635" started-at="2021-08-20T14:21:00Z" finished-at="2021-08-20T14:21:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:script.ValidLogin@3b07a0d6]" name="testValidLogin" duration-ms="6679" started-at="2021-08-19T12:48:52Z" finished-at="2021-08-19T12:48:59Z">
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:script.ValidLogin@12d4bf7e]" name="testValidLogin" duration-ms="6272" started-at="2021-08-20T14:21:12Z" finished-at="2021-08-20T14:21:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.ValidLogin@3b07a0d6]" name="closeApp" is-config="true" duration-ms="95" started-at="2021-08-19T12:48:59Z" finished-at="2021-08-19T12:48:59Z">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.ValidLogin@12d4bf7e]" name="closeApp" is-config="true" duration-ms="63" started-at="2021-08-20T14:21:18Z" finished-at="2021-08-20T14:21:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- script.ValidLogin -->
-    </test> <!-- Test -->
+    </test> <!-- TestChrome -->
+    <test name="TestFireFox" duration-ms="33009" started-at="2021-08-20T14:21:00Z" finished-at="2021-08-20T14:21:33Z">
+      <class name="script.InValidLogin">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.InValidLogin@1a04f701]" name="openApp" is-config="true" duration-ms="12598" started-at="2021-08-20T14:21:16Z" finished-at="2021-08-20T14:21:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testInValidLogin()[pri:2, instance:script.InValidLogin@1a04f701]" name="testInValidLogin" duration-ms="3467" started-at="2021-08-20T14:21:29Z" finished-at="2021-08-20T14:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInValidLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.InValidLogin@1a04f701]" name="closeApp" is-config="true" duration-ms="656" started-at="2021-08-20T14:21:33Z" finished-at="2021-08-20T14:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.InValidLogin -->
+      <class name="script.ValidLogin">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.ValidLogin@2f112965]" name="openApp" is-config="true" duration-ms="13017" started-at="2021-08-20T14:21:00Z" finished-at="2021-08-20T14:21:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:script.ValidLogin@2f112965]" name="testValidLogin" duration-ms="2545" started-at="2021-08-20T14:21:13Z" finished-at="2021-08-20T14:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.ValidLogin@2f112965]" name="closeApp" is-config="true" duration-ms="686" started-at="2021-08-20T14:21:16Z" finished-at="2021-08-20T14:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.ValidLogin -->
+    </test> <!-- TestFireFox -->
   </suite> <!-- Suite -->
 </testng-results>
